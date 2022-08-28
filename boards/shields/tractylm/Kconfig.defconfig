@@ -1,0 +1,19 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TRACTYLM_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "TractylM"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+endif
+
+if SHIELD_TRACTYLM_LEFT || SHIELD_TRACTYLM_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
