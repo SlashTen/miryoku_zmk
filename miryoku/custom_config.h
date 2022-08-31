@@ -16,13 +16,12 @@
 };
 
 &kscan0 {
-	col-gpios
-		= <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		;
+    row-gpios
+        = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
 };
 
 
