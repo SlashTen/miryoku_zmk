@@ -2,8 +2,6 @@
 // https://github.com/manna-harbour/miryoku
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#define MIRYOKU_KLUDGE_MOUSEKEYSPR
-
 / {
 	chosen {
 		zephyr,display = &oled;
